@@ -1,8 +1,7 @@
-arr = input().split()
-list = [int(arr[0]), int(arr[1]), int(arr[2])]
+nums = list(map(int, input().split()))
 
-total = sum(list)
-avg = int(sum(list) / len(list))
+total = sum(nums)
+avg = int(sum(nums) / len(nums))
 
 print(total)
 print(avg)
